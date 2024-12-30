@@ -22,16 +22,24 @@ const Projects = () => {
       description: "A blog platform where users can create and share blog posts.",
       link: "https://example.com/blog",
     },
+    {
+      title: "Blog Platform",
+      description: "A blog platform where users can create and share blog posts.",
+      link: "https://example.com/blog",
+    },
+    {
+      title: "Blog Platform",
+      description: "A blog platform where users can create and share blog posts.",
+      link: "https://example.com/blog",
+    },
   ];
 
   return (
-    <section 
-      id="projects" 
-      className="bg-gray-100 text-gray-900 w-full"
-    >
+    <section id="projects" className="bg-gray-100 text-gray-900 w-full">
       <div className="flex-1 w-full px-6 py-12">
         {/* Section Header */}
-        <h2 className="text-4xl font-bold mb-12 text-center">My Projects</h2>
+        <h2 className="text-4xl font-bold text-center text-blue-500">My Projects</h2>
+        <hr className="border-t-2 border-gray-300 my-4 mx-auto" />
 
         {/* Project Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 h-full">

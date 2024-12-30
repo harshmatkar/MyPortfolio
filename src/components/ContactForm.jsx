@@ -55,9 +55,9 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="bg-white">
-      <div className="w-full max-w-lg mx-auto p-6 bg-white text-black">
-        <h2 className="text-2xl font-bold mb-4">Contact Me</h2>
+    <div className="bg-gray-100 py-10">
+      <div className="w-full max-w-lg mx-auto p-6 bg-white text-black border-2 border-rounded shadow-md">
+        <h2 className="text-2xl font-bold mb-4 text-center">Contact Me</h2>
 
         {status === 'success' && (
           <div className="mb-4 p-4 text-green-700 bg-green-100 border border-green-200 rounded">

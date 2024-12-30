@@ -16,7 +16,7 @@ const Footer = () => {
               className="hover:text-white"
             >
               <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                src="https://www.pngkey.com/png/full/178-1787243_github-icon-png.png"
                 alt="GitHub"
                 className="w-6 h-6"
               />
@@ -40,7 +40,7 @@ const Footer = () => {
               className="hover:text-white"
             >
               <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg"
+                src="https://imagepng.org/wp-content/uploads/2018/08/twitter-icone.png"
                 alt="Twitter"
                 className="w-6 h-6"
               />

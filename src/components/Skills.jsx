@@ -54,16 +54,37 @@ const Skills = () => {
       name: "Matplotlib",
       image: "https://icon.icepanel.io/Technology/svg/Matplotlib.svg",
     },
+    {
+      name: "Matplotlib",
+      image: "https://icon.icepanel.io/Technology/svg/Matplotlib.svg",
+    },
+    {
+      name: "Matplotlib",
+      image: "https://icon.icepanel.io/Technology/svg/Matplotlib.svg",
+    },
+    {
+      name: "Matplotlib",
+      image: "https://icon.icepanel.io/Technology/svg/Matplotlib.svg",
+    },
+    {
+      name: "Matplotlib",
+      image: "https://icon.icepanel.io/Technology/svg/Matplotlib.svg",
+    },
+    {
+      name: "Matplotlib",
+      image: "https://icon.icepanel.io/Technology/svg/Matplotlib.svg",
+    },
   ];
 
   return (
-    <section id="skills" className="bg-gray-50 text-gray-900 w-full py-10">
+    <section id="skills" className="bg-gray-50 text-gray-900 w-full pt-10 pb-10">
       <div className="max-w-7xl mx-auto px-6">
         {/* Section Header */}
-        <h2 className="text-4xl font-bold mb-12 text-center">My Skills</h2>
+        <h2 className="text-4xl font-bold mb-4 text-center text-blue-500 font-calibri">My Skills</h2>
+        <hr className="border-t-2 border-gray-300 mb-4 mx-auto" />
 
         {/* Skills Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
           {skillsList.map((skill, index) => (
             <div
               key={index}
